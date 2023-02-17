@@ -28,3 +28,74 @@ body {
   border-radius: 75px;
   background-color: rgb(251, 214, 133);
 }
+
+.face .eye-container {
+  position: relative;
+  left: 32px;
+  top: 35px;
+  display: flex;
+  width: 85px;
+  justify-content: space-between;
+}
+
+.face .eye-container .eye {
+  background-color: rgb(32, 24, 78);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.face .mouth-container {
+  position: relative;
+  left: 38px;
+  top: 50px;
+  width: 75px;
+}
+
+.face .mouth-container .happy-mouth {
+  width: 75px;
+  height: 37px;
+  background-color: rgb(32, 24, 78);
+  border-radius: 10px 10px 150px 150px;
+}
+
+.face .mouth-container .indifferent-mouth {
+  position: relative;
+  top: 10px;
+  width: 75px;
+  height: 20px;
+  background-color: rgb(32, 24, 78);
+  border-radius: 10px;
+}
+
+.face .mouth-container .sad-mouth {
+  width: 75px;
+  height: 37px;
+  background-color: rgb(32, 24, 78);
+  border-radius: 150px 150px 10px 10px;
+}
+
+.ratings-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.ratings-container .rating-container div {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.ratings-container .rating-container div#bad {
+  background-color: rgb(216, 71, 71);
+}
+
+.ratings-container .rating-container div#okay {
+  background-color: rgb(76, 186, 194);
+}
+
+.ratings-container .rating-container div#good {
+  background-color: rgb(79, 194, 89);
+}
