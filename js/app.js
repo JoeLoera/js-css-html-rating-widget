@@ -4,7 +4,7 @@ const emotionElements = document.querySelectorAll(".rating-container div");
 console.log(emotionElements);
 
 function selectEmotion(e) {
-  console.log("clicked", e.target);
+  console.log("clicked", e.target.id);
 }
 
 emotionElements.forEach((emotionElement) =>
